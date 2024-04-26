@@ -69,11 +69,10 @@ padding-block: 15px;
 }
 
 footer{
-    display: flex;
     grid-row: 3/4;
     background-color: #1848F2;
     padding: 30px;
-    width: 100vw;
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -91,13 +90,8 @@ footer img{
 
 @media (max-width: 760px){
     .foto {
-        border-radius: 10px;
-        height: 50%;
-        min-width: 320px;
-    }
-
-    .foto img{
-        min-width: 320px;
+        height: auto;
+        width: 100px;
     }
 
     .info p,
@@ -140,3 +134,4 @@ footer img{
         margin-bottom: 20vh;
     }
 }
+
